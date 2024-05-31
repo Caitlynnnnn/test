@@ -6,27 +6,22 @@ function About() {
             </header>
             <section>
                 <h2>Introduction</h2>
-                <p>Hello! My name is Pascal. I am a UI/UX design teacher at Tamwood. I have over 20 years of experience working as a designer and coder in the tech industry.</p>
+                <p>Hello! My name is Caitlyn. I am a web design student in CCC. </p>
             </section>
             <section>
                 <h2>Personal Life</h2>
-                <p>I am a 42-year-old Swiss male, currently living in Surrey, near Vancouver, BC, Canada. I am married to a wonderful Canadian woman named Sam, and we have two daughters, Sophie (5) and Madison (3).</p>
-            </section>
-            <section>
-                <h2>Professional Background</h2>
-                <p>Before teaching, I worked extensively as a designer and coder. My skills include JavaScript, React Native, CSS, and HTML. I am passionate about coding and have a deep interest in black holes, string theory, and magic tricks.</p>
+                <p>I am a 25-year-old Hong Konger, currently living in Vancouver, BC, Canada. I have a cat with me. Her name is Dear.</p>
             </section>
             <section>
                 <h2>Current Projects</h2>
-                <p>I am currently working on a new dating app called "Crushy" with my co-founder Carson. The app has two modes: 'surf' for casual hookups with a picture focus, and 'dive' for deeper connections with a bio focus.</p>
-                <p>We recently applied for seed funding and are awaiting good news. Additionally, I am looking for a new full-time job as a designer or project manager to support my family.</p>
+                <p>I am currently working on building my own portfolio as I want to work freelance as a side hustle.<br></br> Additionally, I am looking for a part-time job to support me and  my family.</p>
             </section>
             <section>
                 <h2>Hobbies and Interests</h2>
-                <p>In my free time, I enjoy watching skateboarding competitions on TV, watching NBA games, playing board games, and video games.</p>
+                <p>In my free time, I enjoy reading, listening to music, singing, writing and drawing. I love crocheting as well.</p>
             </section>
         </div>
-    );
+    )
 }
 
 export default About;
