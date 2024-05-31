@@ -4,7 +4,7 @@ import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route, L
 
 import Home from './pages/Home';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Contact from './pages/BlogList';
 
 function Layout() {
   return (
@@ -18,7 +18,7 @@ function Layout() {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Blog</Link>
           </li>
         </ul>
       </nav>
@@ -39,10 +39,14 @@ const router = createBrowserRouter(
 );
 
 function App() {
+
+ 
+
   return (
     <>
       <RouterProvider router={router} />;
-    </>
+      </>
+  
   );
 
 }
